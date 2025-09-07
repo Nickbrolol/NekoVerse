@@ -145,7 +145,7 @@ class ChatManager:
 
 class NekoVerseBot:
     def __init__(self):
-        self.api_key = "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"
+        self.api_key = "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"
         self.api_url = "https://openrouter.ai/api/v1/chat/completions"
         self.headers = {
             "Authorization": f"Bearer {self.api_key}",
